@@ -1,0 +1,12 @@
+[0;31mInit signature:[0m [0mAuthor[0m[0;34m([0m[0;34m*[0m[0margs[0m[0;34m,[0m [0;34m**[0m[0mkwargs[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0;31mDocstring:[0m      Author(id, name, birth_date)
+[0;31mSource:[0m        
+[0;32mclass[0m [0mAuthor[0m[0;34m([0m[0mmodels[0m[0;34m.[0m[0mModel[0m[0;34m)[0m[0;34m:[0m[0;34m[0m
+[0;34m[0m    [0mname[0m [0;34m=[0m [0mmodels[0m[0;34m.[0m[0mTextField[0m[0;34m([0m[0mmax_length[0m[0;34m=[0m[0;36m200[0m[0;34m)[0m[0;34m[0m
+[0;34m[0m    [0mbirth_date[0m [0;34m=[0m [0mmodels[0m[0;34m.[0m[0mDateField[0m[0;34m([0m[0;34m)[0m[0;34m[0m
+[0;34m[0m[0;34m[0m
+[0;34m[0m    [0;32mdef[0m [0m__str__[0m[0;34m([0m[0mself[0m[0;34m)[0m[0;34m:[0m[0;34m[0m
+[0;34m[0m        [0;32mreturn[0m [0mself[0m[0;34m.[0m[0mname[0m[0;34m[0m[0;34m[0m[0m
+[0;31mFile:[0m           ~/Django/miproyecto/miprimeraApp/models.py
+[0;31mType:[0m           ModelBase
+[0;31mSubclasses:[0m     

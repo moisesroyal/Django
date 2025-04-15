@@ -1,8 +1,8 @@
-from django.forms import ModelForm
-from .models import OrderProduct
+from django import forms
+from .models import OrderProduct, Product
 
 
-class OrderProductForm(ModelForm):
+class OrderProductForm(forms.ModelForm):
     class Meta:
         model = OrderProduct
         fields = ["product"]

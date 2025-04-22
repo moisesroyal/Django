@@ -6,7 +6,7 @@ from django.urls import reverse_lazy
 class ProductFormView(generic.FormView):
     template_name = 'productos/misproductos.html'
     form_class = ProductForm
-    success_url = reverse_lazy('agregar_producto')
+    success_url = reverse_lazy('lista_productos')  
 
 
     def form_valid(self, form):

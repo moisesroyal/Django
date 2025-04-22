@@ -81,8 +81,12 @@ WSGI_APPLICATION = 'tiendaCoffee.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'cafeshopdb',
+        'USER': 'moisesramos',
+        'PASSWORD': 'moises1609',
+        'HOST': 'localhost',
+        'PORT': '5432',
     }
 }
 
@@ -132,5 +136,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CRYSPY_ALLOWED_TEMPLATE_PACK = 'tailwind'
 CRISPY_TEMPLATE_PACK = 'tailwind'
 
-LOGIN_REDIRECT_URL = 'lista_productos'
+LOGIN_REDIRECT_URL = 'mi_orden'
 LOGIN_URL = 'login'
